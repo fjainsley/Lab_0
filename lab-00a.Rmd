@@ -47,7 +47,7 @@ p1
 ```
 
 
-*a graph of favourite numbers based on github username through data in the table*
+a graph of favourite numbers based on github username through data in the table
 
 ### Exercises 19
 
@@ -55,11 +55,11 @@ Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
 p1 + labs(x = "github username", 
-          y = "",
-          title = "Insert text here")
+          y = "favourite number",
+          title = "groups favourite numbers")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+a table due to extreme variation in results, which would allow for a more tidy presentation
